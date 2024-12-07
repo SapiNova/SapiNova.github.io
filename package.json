@@ -1,0 +1,15 @@
+{
+  "name": "optisolutions",
+  "version": "1.0.0",
+  "description": "Homepage for OptiSolutions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Lukas Jurisica, Olivia Shi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
