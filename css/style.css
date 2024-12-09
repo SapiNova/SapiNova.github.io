@@ -42,10 +42,6 @@ a:active {
 	box-shadow: 0 0 0 1px var(--color-highlight) inset;
 }
 
-a>* {
-	pointer-events: none;
-}
-
 .content {
 	width: 100%;
 	max-width: 1200px;
@@ -234,6 +230,41 @@ section > h2 {
     font-size: 1.5rem;
     margin: 0 1rem;
     color: #3498db;
+}
+
+.profile-links {
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.profile-link {
+	height: 3rem;
+	width: 3rem;
+	background-color: #ACACAC;
+	transition: background-color var(--hover-speed) ease;
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+
+.profile-link:hover {
+	background-color: var(--color-highlight);
+}
+
+.linkedin {
+	-webkit-mask-image: url(/images/linkedin.svg);
+    mask-image: url(/images/linkedin.svg);
+}
+
+.github {
+	-webkit-mask-image: url(/images/github.svg);
+    mask-image: url(/images/github.svg);
+}
+
+.resume {
+	-webkit-mask-image: url(/images/resume.svg);
+    mask-image: url(/images/resume.svg);
 }
 
 .role {
