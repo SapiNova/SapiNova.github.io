@@ -188,7 +188,7 @@ section > h2 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .service-card {
