@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 400">
+	<!-- <image href="sapinova_logo.png" height="100%" width="100%" /> !-->
+	<!-- Horizontal Line !-->
+	<line x1="125" y1="200" x2="425" y2="200" style="stroke:white; stroke-width:10" />
+	<!-- North Line !-->
+	<line x1="250" y1="200" x2="260" y2="115" style="stroke:white; stroke-width:10" />
+	<!-- North-East Line !-->
+	<line x1="250" y1="200" x2="365" y2="100" style="stroke:white; stroke-width:10" />
+	<!-- North-West Line !-->
+	<line x1="250" y1="200" x2="160" y2="120" style="stroke:white; stroke-width:10" />
+	<!-- South-East Line !-->
+	<line x1="250" y1="200" x2="370" y2="285" style="stroke:white; stroke-width:10" />
+	<!-- South Line !-->
+	<line x1="250" y1="200" x2="225" y2="325" style="stroke:white; stroke-width:10" />
+	
+	<!-- Central Ball !-->
+	<ellipse cx="250" cy="200" rx="30" ry="22" style="fill: white;" />
+	<!-- East Ball !-->
+	<ellipse cx="425" cy="200" rx="28" ry="20" style="fill: white;" />
+	<ellipse cx="360" cy="160" rx="15" ry="12" style="fill: white;" />
+	<line x1="425" y1="200" x2="360" y2="160" style="stroke:white; stroke-width:10" />
+	<ellipse cx="320" cy="175"  rx="8" ry="8" style="fill: white;" />
+	<line x1="360" y1="160" x2="320" y2="175" style="stroke:white; stroke-width:5" />
+	<ellipse cx="360" cy="235" rx="15" ry="12" style="fill: white;" />
+	<line x1="425" y1="200" x2="360" y2="235" style="stroke:white; stroke-width:10" />
+	<ellipse cx="320" cy="220" rx="8" ry="8" style="fill: white;" />
+	<line x1="360" y1="235" x2="320" y2="220" style="stroke:white; stroke-width:5" />
+	<!-- West Ball !-->
+	<ellipse cx="125" cy="200" rx="20" ry="16" style="fill: white;" />
+	<!-- North Ball !-->
+	<ellipse cx="260" cy="115" rx="17" ry="13" style="fill: white;" />
+	<ellipse cx="305" cy="115" rx="8" ry="8" style="fill: white;" />
+	<line x1="260" y1="115" x2="305" y2="115" style="stroke:white; stroke-width:5" />
+	<ellipse cx="225" cy="135" rx="8" ry="8" style="fill: white;" />
+	<line x1="260" y1="115" x2="225" y2="135" style="stroke:white; stroke-width:5" />
+	<!-- South Ball !-->
+	<ellipse cx="225" cy="325" rx="28" ry="20" style="fill: white;" />
+	<!-- North-East Ball !-->
+	<ellipse cx="365" cy="100" rx="20" ry="16" style="fill: white;" />
+	<!-- North-West Ball !-->
+	<ellipse cx="160" cy="120" rx="20" ry="16" style="fill: white;" />
+	<ellipse cx="170" cy="170" rx="8" ry="8" style="fill: white;" />
+	<line x1="160" y1="120" x2="170" y2="170" style="stroke:white; stroke-width:5" />
+	<!-- South-East Balls !-->
+	<ellipse cx="300" cy="300" rx="28" ry="20" style="fill: white;" />
+	<ellipse cx="370" cy="285" rx="20" ry="16" style="fill: white;" />
+	<ellipse cx="275" cy="255" rx="8" ry="8" style="fill: white;" />
+	<line x1="300" y1="300" x2="275" y2="255" style="stroke:white; stroke-width:5" />
+	<!-- South-West Ball !-->
+	<ellipse cx="150" cy="250" rx="20" ry="16" style="fill: white;" />
+	<ellipse cx="180" cy="225" rx="8" ry="8" style="fill: white;" />
+	<line x1="150" y1="250" x2="180" y2="225" style="stroke:white; stroke-width:5" />
+	
+	<!-- Brain Arc !-->
+	<path d="M 300 310 Q 415 290 425 200 Q 430 145 365 100 Q 245 50 160 120 Q 120 160 125 200 Q 125 240 150 250 Q 200 270 215 230" style="stroke:white; stroke-width:10" fill="transparent"/>
+	<ellipse cx="215" cy="230" rx="8" ry="8" style="fill: white;" />
+	
+	<!-- Outline !-->
+	<path d="M 75 260 L 75 140 Q 75 105 110 85 L 235 17 Q 275 0 315 17 L 440 85 Q 475 105 475 140 L 475 260 Q 475 295 440 315 L 315 383 Q 275 400 235 383 L 110 315 Q 75 295 75 260 " style="stroke:white; stroke-width:15" fill="transparent"/>
+</svg>

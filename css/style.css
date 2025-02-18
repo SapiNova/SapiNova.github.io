@@ -1,0 +1,308 @@
+/*========================================================================
+	General
+========================================================================*/
+
+:root {
+	--color-primary: #EAEAEA;
+	--color-secondary: #D9D9D9;
+	--color-highlight: #f48c06;
+	--color-background: #F9F9F9;
+	--navbar-height: 3rem;
+	--hover-speed: 0.3s;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Poppins", Verdana, Arial, sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: var(--color-background);
+	margin: 0;
+}
+
+a {
+	color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	box-shadow: 0 0 0 1px var(--color-highlight) inset;
+}
+
+.content {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.unselectable {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.undraggable {
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+	user-drag: none;
+}
+
+.hidden {
+	display: none;
+}
+
+/*========================================================================
+	Header
+========================================================================*/
+
+header {
+	background: linear-gradient(135deg, #3498db, #8e44ad);
+	color: white;
+	padding: 2rem;
+	text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	height: 4rem;
+}
+
+.logo {
+	display: flex;
+	height: 100%;
+	align-items: center;
+}
+
+.logo > img {
+	height: 100%;
+}
+
+.logo > span {
+	padding: 0 1rem;
+	font-size: 2rem;
+	font-family: "Audiowide", sans-serif;
+}
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: none;
+	gap: 1rem;
+}
+
+.nav-item {
+	color: white;
+	font-size: 1.1rem;
+	transition: color var(--hover-speed);
+}
+
+.nav-item:hover {
+	color: var(--color-highlight);
+	text-decoration: none;
+}
+
+.hero {
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+/*========================================================================
+	Main
+========================================================================*/
+
+main {
+	margin-top: -3rem;
+}
+
+main > .content {
+	padding: 1rem 2rem 2rem 2rem;
+	border-radius: 1rem;
+	background-color: white;
+}
+
+section {
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+section > p {
+    font-size: 18px;
+    color: #777;
+}
+
+section > h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem;
+    color: #2c3e50;
+}
+
+.hover-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--color-background);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform var(--hover-speed) ease, box-shadow var(--hover-speed) ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Services */
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.service-card {
+    width: 18rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #3498db;
+}
+
+.service-card p {
+    color: #555;
+}
+
+/* About */
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.team-member {
+    max-width: 25rem;
+}
+
+.team-photo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    color: #3498db;
+}
+
+.profile-links {
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.profile-link {
+	height: 3rem;
+	width: 3rem;
+	background-color: #ACACAC;
+	transition: background-color var(--hover-speed) ease;
+	mask-repeat: no-repeat;
+	mask-size: cover;
+}
+
+.profile-link:hover {
+	background-color: var(--color-highlight);
+}
+
+.linkedin {
+	-webkit-mask-image: url(/images/linkedin.svg);
+    mask-image: url(/images/linkedin.svg);
+}
+
+.github {
+	-webkit-mask-image: url(/images/github.svg);
+    mask-image: url(/images/github.svg);
+}
+
+.resume {
+	-webkit-mask-image: url(/images/resume.svg);
+    mask-image: url(/images/resume.svg);
+}
+
+.role {
+    color: #888;
+}
+
+.bio {
+    color: #555;
+}
+
+/*========================================================================
+	Footer
+========================================================================*/
+
+footer {
+    padding: 1rem;
+	margin-top: auto;
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+}
+
+/*========================================================================
+	Responsiveness
+========================================================================*/
+
+@media screen and (max-width: 40rem) {
+	.logo {
+		margin: 0 auto;
+	}
+	
+	.navbar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 25rem) {
+	.logo > span {
+		display: none;
+	}
+}
