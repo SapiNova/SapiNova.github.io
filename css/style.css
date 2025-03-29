@@ -91,6 +91,7 @@ nav {
 	display: flex;
 	height: 100%;
 	align-items: center;
+	color: #FFFFFF;
 }
 
 .logo > img {
@@ -144,6 +145,7 @@ nav {
 
 main {
 	margin-top: -3rem;
+	margin-bottom: 2rem;
 }
 
 main > .content {
@@ -153,23 +155,36 @@ main > .content {
 }
 
 section {
-	text-align: center;
 	padding-bottom: 2rem;
 }
 
-section > p {
+section>p, section>ul {
     font-size: 18px;
     color: #777;
+	padding: 0 2rem;
 }
 
-section > h2 {
+section>h2 {
     font-size: 2.5rem;
     font-weight: 600;
     margin: 2rem;
     color: #2c3e50;
+	text-align: center;
+}
+
+section>h3 {
+	font-size: 1.5rem;
+    margin: 2rem;
+    color: #2c3e50;
+}
+
+section>h4 {
+	margin: 0 2rem;
+    color: #2c3e50;
 }
 
 .hover-card {
+	text-align: center;
     padding: 1rem;
     border-radius: 1rem;
     background-color: var(--color-background);

@@ -14,10 +14,10 @@
 <body>
 	<header>
         <nav class="content">
-			<div class="logo">
+			<a href="/" class="logo">
 				<img src="/images/logo.svg" class="unselectable undraggable">
 				<span>SAPINOVA</span>
-			</div>
+			</a>
 			<div class="navbar">
                 <a class="nav-item" href="#services">Services</a>
                 <a class="nav-item" href="#about">About</a>
@@ -76,6 +76,33 @@
 						<p class="bio">Specialized in machine learning algorithms and statistical analysis. I'm focused on delivering actionable insights through predictive modeling and data exploration.</p>
 					</div>
 				</div>
+			</section>
+
+			<section id="projects">
+				<h2>Projects</h2>
+				<h3>End-to-End Predictive ML Pipeline for Forecast Validation and Data Quality</h3>
+				<p>At Amazon, I led the design and implementation of a scalable predictive modeling pipeline. The objective was to build a machine learning model using Amazon SageMaker, integrate its predictions with DynamoDB, and implement GlueDQ to perform data validation and quality checks against existing promotional data. This system was designed to be modular and reusable, laying the foundation for future ML models and automated data quality workflows.</p>
+				<h4>Challenge:</h4>
+				<p>Inaccurate promotional forecasts had led to significant downstream operational impacts, including over-forecasting and inventory shrinkage. The existing systems lacked automated validation mechanisms, making it difficult to detect issues early in the process.</p>
+				<h4>The Solution:</h4>
+				<p>I built, designed, and deployed a modular and scalable pipeline, supporting future models and validation workflows with the following components:</p>
+				<ul>
+					<li>SageMaker: Developed a machine learning model to predict expected outcomes and flag potential anomalies in forecast data.</li>
+					<li>DynamoDB: Integrated prediction results into a real-time data store for quick access and analysis.</li>
+					<li>Glue Data Quality (GlueDQ): Implemented automated data quality checks, comparing predictions against historical trends and identifying discrepancies.</li>
+				</ul>
+				<h4>The impact:</h4>
+				<ul>
+					<li>Contributed to identifying and addressing forecast anomalies that resulted in avoiding over $30,000 in additional costs in a single region within one quarter.</li>
+					<li>Improved data quality and reduced operational risks by automating data validation, significantly decreasing manual oversight.</li>
+					<li>Established a reusable framework now leveraged by other teams for predictive modeling and data quality automation.</li>
+				</ul>
+				<h4>Key Takeaways:</h4>
+				<ul>
+					<li>Direct experience delivering enterprise-scale ML solutions at Amazon.</li>
+					<li>Proven ability to design and implement automated validation systems that safeguard operations and reduce financial risks.</li>
+					<li>A focus on data governance and quality, ensuring accurate inputs for critical decision-making processes.</li>
+				</ul>
 			</section>
 
 			<section id="contact">
